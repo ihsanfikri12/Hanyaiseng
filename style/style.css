@@ -1,0 +1,55 @@
+body {
+  background: orange url("../img/Rem_Anime.png") no-repeat center top;
+}
+
+h1 {
+  color: red;
+  text-decoration: underline;
+  text-transform: capitalize;
+  word-spacing: 4px;
+}
+
+h2 {
+  color: blue;
+  text-decoration: overline;
+  text-transform: lowercase;
+  word-spacing : 3px;
+}
+
+h1.asalole {
+  border-style: dashed;
+  width: 150px;
+  height: 30px;
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+a:active{
+  color: black;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:visited {
+  color: blue;
+}
+
+h3{
+  border-style: groove;
+  border-color: blue;
+  margin: 50px;
+  outline-color: blue;
+  outline-offset: 25px;
+  outline: 10px;
+  border-width: 20px;
+}
